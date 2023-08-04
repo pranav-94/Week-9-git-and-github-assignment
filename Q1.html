@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            height: 550px;
+            width: 100%;
+            background-color: gainsboro;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        button{
+            width: 350px;
+            height: 40px;
+            background-color: #3f9cff;
+            color: white;
+            border: none;
+            border-radius: 7px;
+            cursor: pointer;
+            font-size: 17px;
+        }
+        button:hover{
+            scale: 1.05;
+        }
+        .form{
+            width: 430px;
+            height: 360px;
+            z-index: 1;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 7px;
+            /* border: 1px solid #a6a6a6; */
+        }
+        .ip{
+            width: 350px;
+            border: none;
+            border-bottom: 1px solid black;
+            padding-bottom: 15px;
+            font-size: 17px;
+        }
+        .ip:hover{
+            font-size: 18px;
+        }
+        .lol{
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="form">
+        <h1>Login</h1>
+        <input class="ip lol" type="text" placeholder="Username">
+        <input class="ip lol" type="password" name="" id="" placeholder="Password">
+        <button class="lol">Submit</button>
+    </div>
+</body>
+</html>
